@@ -1,0 +1,11 @@
+﻿-- int: kiểu số nguyên 
+-- float: kiểu số thực
+-- char: kiểu ký tự. Bộ nhớ cấp phát cứng, không viết tiếng việt được. Ví dụ: char(10) -> không ai sử dụng đc. 'Kteam' -> dùng 10 ô nhớ
+-- varchar: kiểu ký tự. Bộ nhớ cấp phát động. Vd: varchar(10) -> 10 ô nhớ này chỉ được lấy khi có dữ liệu bên trong. 'Kteam' -> chỉ dùng 5 ô nhớ
+-- nchar: kiểu ký tự, có thể lưu tiếng việt.
+-- nvarchar: kiểu ký tự cấp phát động có thể lưu tiếng việt. Dung lượng ít hơn  nvarchar vì phải lưu thêm bộ mã unicode
+-- date: lưu trữ ngày, tháng, năm
+-- time: lưu trữ giờ, phút, giây,...
+-- bit: lưu giá trị 0 và 1
+-- text: lưu văn bản lớn
+-- ntext: lưu văn bản lớn có tiếng việt
